@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+footer {
+    margin: 0;
+    background-color: saddlebrown;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: saddlebrown;
+    color: black;
+    padding: 1rem;
+}
+
+.nav-left, .nav-right {
+    margin: 0 20px;
+}
+
+.nav-right a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-right a:hover {
+    text-decoration: underline;
+}
+
+.splash {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: lightgoldenrodyellow;
+}
+
+.splash h1 {
+    font-size: 3rem;
+    color: black;
+}
+
+.splash .tagline {
+    color: darkslategrey;
+    margin-top: 20px;
+    font-size: 1.3em;
+}
+
+section {
+    border-style: double;
+    border-color: darkslategray;
+    background-color: lightgoldenrodyellow;
+}
+
+.headshot {
+    border-radius: 50%;
+    border: 3px solid darkslategrey;
+    width: 100px;
+    height: 100px;
+}
+
+.tagline {
+    font-style: oblique;
+    color: darkslategray;
+}
+
+h2 {
+    color: black;
+    font-family: 'Arial', sans-serif;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: lightgray;
+    border: 1px solid grey;
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 0 10px 6px rgba(0, 0, 0);
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.one-col {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+    background: lightgoldenrodyellow;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.one-col input, .one-col textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+    box-sizing: border-box; 
+}
